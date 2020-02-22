@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#players {
+  text-align: center;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 0.05em solid #ddd;
+  width: 60%;
+}
+
+#players td, #players th {
+  padding: 0.6em;
+}
+
+#players tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#players tr:hover {
+  background-color: #ddd;
+}
+
+#players th {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: #a62b52;
+  color: white;
+}
+
+#inputs {
+  padding-top: 1em;
+}
+
+#la,#la2 {
+  padding-right: 1em;
+}
+
+#in {
+  margin-right: 1em;
+}
+
+#in2 {
+  margin-right: 2em;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 0.3em;
+}
+
+button:hover {
+  background-color: #2c662e;
+
+}
